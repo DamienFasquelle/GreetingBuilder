@@ -1,31 +1,31 @@
 # GreetingBuilder
 Training Js project with roadmap.sh
 
-https://roadmap.sh/projects/js-greeting-builder
-
 Greeting Builder
-Build a small greeting helper. The main function, createGreeting, should take a person's first name, last name, and time of day, then return one greeting string.
+Un petit projet JavaScript pour pratiquer la manipulation de fonctions et de chaînes de caractères, basé sur une idée de roadmap.sh.
 
-Write these functions:
+Objectif
+Créer un assistant de salutations. La fonction principale, createGreeting, prendra en entrée le prénom, le nom, et le moment de la journée, puis retournera une chaîne de salutation appropriée.
 
-formatName(firstName, lastName) should return the first and last name as one string.
+Fonctions à écrire
+formatName(firstName, lastName)
+Retourne le prénom et le nom rassemblés dans une chaîne (ex: "Ava Stone").
 
-getGreeting(timeOfDay) should return "Good morning", "Good afternoon", or "Good evening".
+getGreeting(timeOfDay)
+Retourne "Good morning", "Good afternoon" ou "Good evening" selon le moment de la journée fournit ('morning', 'afternoon' ou 'evening').
 
-createGreeting(firstName, lastName, timeOfDay) should use the other two functions and return the final greeting.
+createGreeting(firstName, lastName, timeOfDay)
+Utilise les deux fonctions précédentes pour produire le message final de salutation.
 
-Sample checks:
-
-js
+Exemple d’utilisation
 
 console.log(createGreeting('Ava', 'Stone', 'morning'));
 console.log(createGreeting('Noah', 'Kim', 'evening'));
 console.log(createGreeting('Mina', 'Patel', 'afternoon'));
-Expected output:
-
-txt
-
+Résultat attendu
 Good morning, Ava Stone
 Good evening, Noah Kim
 Good afternoon, Mina Patel
-Your functions should return strings. Use console.log only to test your answer.
+Conseils
+Vos fonctions doivent retourner des chaînes de caractères, n’utilisez console.log que pour tester le résultat.
+Respectez la casse et la ponctuation des salutations comme indiqué dans l’exemple.
